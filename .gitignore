@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment variables
+.env
+backend/.env
+frontend/.env
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+frontend/build/
+
+# Uploads
+backend/uploads/
+*.pdf
+
+# SSL Certificates
+*.key
+*.cert
+*.pem
+backend/ssl/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Misc
+*.swp
+*.swo
+*~
+
